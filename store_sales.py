@@ -37,7 +37,7 @@ new_prices = [price - 5 for price in prices]
 print("Old Prices:", prices)
 print("New Prices:", new_prices)
 
-#Task 3 
+#Task 3 calculate the total revenue generated from the products
 products = ["Sankofa Foods", "Jamestown Coffee", "Bioko Chocolate", "Blue Skies Ice Cream", "Fair Afric Chocolate", "Kawa Moka Coffee", "Aphro Spirit", "Mensado Bissap", "Voltic"]
 
 prices = [30, 25, 40, 20, 20, 35, 45, 50, 35]
@@ -55,7 +55,7 @@ total_revenue = calculate_total_revenue(prices, last_week)
 # Display the result
 print("Total Revenue Generated: $", total_revenue)
 
-#Task 4
+#Task 4 calculate the average daily revenue generated from the products
 products = ["Sankofa Foods", "Jamestown Coffee", "Bioko Chocolate", "Blue Skies Ice Cream", "Fair Afric Chocolate", "Kawa Moka Coffee", "Aphro Spirit", "Mensado Bissap", "Voltic"]
 
 prices = [30, 25, 40, 20, 20, 35, 45, 50, 35]
